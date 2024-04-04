@@ -44,12 +44,7 @@
     font-size: inherit;
 }
 
-.container-calculadora form button{
-    border: 0px;
-    background-color: rgb(19, 19, 138);
-    color: wheat;
-    padding: 10px 20px;
-    border-radius: 20px;
-    margin-top: 1rem;
+.container-calculadora form h3{
+    margin-top:20px ;
 }
 
