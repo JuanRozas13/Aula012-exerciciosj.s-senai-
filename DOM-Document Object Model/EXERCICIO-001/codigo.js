@@ -96,5 +96,21 @@
 // 9. Use o método createElement para criar um novo elemento <p>. Use o método appendChild para adicionar este elemento ao final do corpo do seu documento.
 
 
-const crear = document.createElement("h2")
-crear.textContent="voltei"
+// const crear = document.createElement("h2")
+// var fifa = document.createTextNode("fifa é melhor que pes");
+// crear.appendChild(fifa);
+// document.body.appendChild(crear);
+
+
+
+// -----------------------------------------//-----------------------------------------
+
+
+// 10. Selecione um elemento em seu documento e use o método removeChild para removê-lo. Você terá que selecionar o pai desse elemento e chamar removeChild nele, passando o elemento que você deseja remover como argumento.
+
+
+var elementPai = document.getElementsByTagName("div")[0]
+
+var elementFilho = document.getElementsByTagName("h1")[0]
+
+elementPai.removeChild(elementFilho)

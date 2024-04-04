@@ -24,6 +24,7 @@
     text-align: center;
     font-size: 24px;
     font-family: monospace;
+    color: rgb(19, 19, 138);
 }
 
 .container-calculadora form{
@@ -34,10 +35,21 @@
 }
 
 .container-calculadora form input{
-    width: 15rem;
-    margin  : .5rem 0px;
+    width: 12rem;
+    margin  : 1rem 0px;
     outline: 0px;
-    border: 2px solid black;
+    border: 2px solid rgb(19, 19, 138);
     border-radius: 2px;
-    
+    padding: 10px 5px;
+    font-size: inherit;
 }
+
+.container-calculadora form button{
+    border: 0px;
+    background-color: rgb(19, 19, 138);
+    color: wheat;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
